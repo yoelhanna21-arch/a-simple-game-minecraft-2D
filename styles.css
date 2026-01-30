@@ -1,0 +1,128 @@
+#game {
+    position: relative;
+    background: rgb(0, 144, 201);
+    overflow: hidden;
+    width: auto;
+}
+
+.perso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 100px;
+    top: 0;
+    z-index: 10;
+    width: auto;
+}
+
+.tete {
+    width: 30px;
+    height: 30px;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 2px
+}
+
+.bbb {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2px;
+}
+
+.bras1, .bras2 {
+    width: 8px;
+    height: 30px;
+    background-color: brown;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 2px;
+}
+
+.buste {
+    width: 20px;
+    height: 35px;
+    background-color: brown;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 2px;
+}
+
+.jambes {
+    display: flex;
+    margin: 2px;
+}
+
+.jambe1, .jambe2 {
+    width: 10px;
+    height: 30px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 2px;
+}
+
+.block{
+    position: absolute;
+    width: 110vw;
+    height: 100vh;
+    border: 1px solid black;
+    box-sizing: border-box;
+    z-index: 6;
+    padding: 20px;
+}
+
+.terre {
+    background-color: #7b4a12;
+}
+
+.herbe {
+    background-color: #2ecc71;
+}
+
+.pierre {
+    background-color: #7f8c8d;
+}
+
+.lauch{
+    background: url('https://uploads.onecompiler.io/44a849hdd/44a7pyrks/Screenshot%202026-01-14%20at%2017-09-05%20a%20propos%20du%20creatuer%20-%20HTML%20-%20OneCompiler.png')
+}
+
+.lauch-container{
+    text-align: center;
+    display: flex;
+    border: 2px solid black;
+    align-items: center;
+    border-radius: 10px;
+    padding: 80px;
+    margin: 100px;
+    flex-direction: column;
+    background-color: rgba(0, 255, 238, 0.7);
+}
+
+.start-game-button{
+    padding: 15px 30px;
+    background-color: rgba(0, 66, 0, 0.8);
+    color: white;;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    align-items: center;
+    margin: 40px;
+    font-weight: bold;
+    font-style: italic;
+    transition: 0.4s;
+}
+
+.start-game-button:hover{   
+    transition: 0.4s;
+    box-shadow: 0 0 10px 2px  black;
+    background: linear-gradient(to right, black, darkblue, black)
+}
+
+.title{
+    text-decoration: underline;
+    text-align: center;
+}
